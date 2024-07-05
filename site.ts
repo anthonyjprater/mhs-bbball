@@ -3,8 +3,8 @@
 // @unocss-include
 
 export default {
-  name: 'Happy Paws',
-  description: 'Adopt Your Fur Mate',
+  name: 'Mariner Basketball',
+  description: 'Mariner High School Boys Basketball',
   logo: 'i-noto:cat-face',
   author: 'Pinegrow',
   url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
@@ -18,7 +18,7 @@ export default {
   titleSeparator: '|', // default
   nav: [
     { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Adopt Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Roster', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',

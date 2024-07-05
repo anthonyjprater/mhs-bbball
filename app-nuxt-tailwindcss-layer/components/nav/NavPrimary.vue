@@ -22,8 +22,8 @@
         :to="navlink.link"
         :label="navlink.text"
         size="lg"
-        :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'"
-        class="!rounded-lg"
+        :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'solid'"
+        class="!rounded-lg text-secondary-300"
       />
     </div>
     <BaseButton
